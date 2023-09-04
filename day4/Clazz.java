@@ -76,7 +76,7 @@ public class Clazz {
           // Person.introduce2();
           // Person.introduce2(); 와 abc.introduce2()의 차이는... Person 꾸러미보다. 개별객체 abc or abc2에 중점을 둔것?
           // 이게 인스턴스를 사용한 것인듯
-          // 인스턴스를 사용하면 객체명.함수() 의 형태를 따른다.
+          // 인스턴스를 사용하면 객체.메서드(함수) 의 형태를 따른다.
 
           abc.introduce2();
           abc2.introduce2();
@@ -102,7 +102,15 @@ public class Clazz {
 //    }
 
 // 인스턴스(복사본, 객체)를 사용하려면 static이 있어서는 안된다.
+// 클래스는 현실세계의 개념 및 사물과 1:1 매핑
+
+// 객체 -> 개성을 표현하기 위함
+// 모든 객체가 공유하는 개념. -> 인류평균나이
 class Person2 {
+
+    // 클래스에 선언된 변수를 객체 변수(instance variable)라고 한다 - 아래에서 age, name, home.
+    // 객체 변수는 인스턴스 변수, 멤버 변수, 속성이라고도 한다.
+    // 클래스에 의해 생성되는 것은 객체, 그리고 그 클래스에 선언된 변수는 객체 변수라고 생각하면 쉽다.
         int age;
         String name;
         String home;
@@ -114,17 +122,19 @@ class Person2 {
 }
 
 
-class computer {
+class Computer {
     double cpu;
     int ram;
     int ssd;
 
     public void poweron() {
+        System.out.println("컴퓨터 전원이 켜집니다.");
     }
-
     public void poweroff() {
+        System.out.println("컴퓨터 전원이 꺼집니다.");
     }
 
-    public void spec() {
+    public void boosting() {
+        cpu++;
     }
 }
