@@ -10,9 +10,7 @@ public class Exam2_1 {
 }
 
 class Car {
-
-    static String status = "코드 적상작동중";
     public static void drive() {
-        System.out.printf(status);
+        System.out.printf("코드 적상작동중");
     }
 }
