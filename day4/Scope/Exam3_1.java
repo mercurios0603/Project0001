@@ -29,7 +29,7 @@ public class Exam3_1 {
 
 class Account {
 
-    int bank;
+    int bank; // 인스턴스 변수. 클래스 내에서 통용되는.
 
     public void deposit (int push) {
         bank = bank + push;
