@@ -10,7 +10,7 @@ public class LocalVar {
 }
 
 class Calculator {
-    int result ; // 인스턴스 변수 -> 두 함수가 공유
+    int result ; // 인스턴스 변수 -> plus, test 두 함수가 공유
 
     // 클래스 변수 -> 모든 인스턴스가 공유
     // 인스턴스 변수 -> 모든 함수(메서드)가 공유
