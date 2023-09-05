@@ -29,7 +29,7 @@ public class Exam3_1 {
 
 class Account {
 
-    int bank; // 인스턴스 변수. 클래스 내에서 통용되는.
+    int bank; // 인스턴스 변수 -> 두 함수(메서드)가 공유
 
     public void deposit (int push) {
         bank = bank + push;

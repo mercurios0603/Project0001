@@ -116,6 +116,7 @@ class Person2 {
         String home;
 
         //데이터를 사용, 활용하는 것은 함수가 한다. (그래서 class 안에 존재하는 것이다)
+        //객체는 변수와 함수를 가질 수 있다.
         public void introduce2() {
         System.out.printf("안녕하세요. %d살 %s사는 %s입니다.\n", age, home, name);
     }
