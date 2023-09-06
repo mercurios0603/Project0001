@@ -38,7 +38,7 @@ class Person {
     Car myCar; // null
 
     // 생성자
-    // 리턴타입 X, 메서드명은 클래스명과 동일
+    // 리턴타입 X (즉 void 부분을 사용하지 않는다는 뜻, 메서드명은 클래스명과 동일)
 
     public Person(int age, String name, Car myCar) {
         System.out.println("사람 한명 생성");
