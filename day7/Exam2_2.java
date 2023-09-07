@@ -38,5 +38,7 @@ public class Exam2_2 {
         System.out.println("d의 최대값 : " + Double.MAX_VALUE);
 
         boolean bl; // 1 bit
+        //System.out.println("boolean의 최소값 : " + Boolean.MIN_VALUE); // 이런건 존재하지 않는다.
+        //System.out.println("boolean의 최대값 : " + Boolean.MAX_VALUE); // 이런건 존재하지 않는다.
     }
 }

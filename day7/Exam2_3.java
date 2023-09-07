@@ -8,10 +8,8 @@ public class Exam2_3 {
         저장소.저장("안녕");
         저장소.저장(new 사람());
         저장소.저장(new 사과());
-        저장소.저장(new 원숭이());
-        저장소.저장(new 돌멩이());
 
-        // 데이터형 변수 의 형태, 사람 a1 = new 사람()의 우변을 넣는 것이다. (실제 입력값인 셈) 좌변은 변수
+        // 데이터형 변수 의 형태, 사람 a1 = new 사람()의 우변인 인스턴스값을 넣는 것이다. (실제 입력값인 셈) 좌변은 변수
 
         저장소.저장(5.5);
         저장소.저장(false);
@@ -83,8 +81,12 @@ class 저장소 {
     }
 
     // 객체 관련 값음 Object로 다 형변환 해서 받을 수 있다.
-    static void 저장(Object a모든것) {
-        System.out.println("생물 값 : " + a모든것);
+    static void 저장(사람 v) {
+        System.out.println("생물 값 : " + v);
+    }
+
+    static void 저장(사과 v) {
+        System.out.println("생물 값 : " + v);
     }
 
 //        static void 저장(사람 v) {
@@ -109,10 +111,3 @@ class 사람 { // extends Object가 생략되어 있는셈.
 
 class 사과 { // extends Object가 생략되어 있는셈.
 }
-
-class 돌멩이 { // extends Object가 생략되어 있는셈.
-}
-
-class 원숭이 { // extends Object가 생략되어 있는셈.
-}
-
