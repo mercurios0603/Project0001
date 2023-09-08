@@ -48,10 +48,12 @@ class 저장소 {
     private Object data;
 
     public void setData(Object data) {
+
         this.data = data;
     }
 
     public Object getData() {
+
         return this.data;
     }
 }

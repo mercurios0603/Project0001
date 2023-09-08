@@ -29,10 +29,12 @@ class 저장소<T> {
     private T data;
 
     public void setData(T inputedData) {
+
         this.data = inputedData;
     }
 
     public T getData() {
+
         return data;
     }
 }
